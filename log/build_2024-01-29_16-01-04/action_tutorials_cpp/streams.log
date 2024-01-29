@@ -1,0 +1,77 @@
+[0.417s] Invoking command in '/home/tuantran/ros2_ws_int/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/tuantran/ros2_ws_int/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/tuantran/ros2_ws_int/install/action_tutorials_cpp
+[0.818s] -- The C compiler identification is GNU 11.4.0
+[1.263s] -- The CXX compiler identification is GNU 11.4.0
+[1.312s] -- Detecting C compiler ABI info
+[1.688s] -- Detecting C compiler ABI info - done
+[1.759s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.764s] -- Detecting C compile features
+[1.770s] -- Detecting C compile features - done
+[1.802s] -- Detecting CXX compiler ABI info
+[2.244s] -- Detecting CXX compiler ABI info - done
+[2.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.314s] -- Detecting CXX compile features
+[2.318s] -- Detecting CXX compile features - done
+[2.350s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.182s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.605s] -- Found action_tutorials_interfaces: 0.0.0 (/home/tuantran/ros2_ws_int/install/action_tutorials_interfaces/share/action_tutorials_interfaces/cmake)
+[3.844s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.874s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.923s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.014s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.409s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[5.954s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.975s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.640s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.828s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.092s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.180s] -- Looking for pthread.h
+[7.616s] -- Looking for pthread.h - found
+[7.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.251s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.267s] -- Found Threads: TRUE  
+[10.592s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[11.048s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[11.957s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.430s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.431s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tuantran/ros2_ws_int/src/action_tutorials_cpp/include>
+[12.432s] -- Configured cppcheck exclude dirs and/or files: 
+[12.436s] -- Added test 'lint_cmake' to check CMake code style
+[12.444s] -- Added test 'uncrustify' to check C / C++ code style
+[12.444s] -- Configured uncrustify additional arguments: 
+[12.449s] -- Added test 'xmllint' to check XML markup files
+[12.500s] -- Configuring done
+[12.634s] -- Generating done
+[12.646s] -- Build files have been written to: /home/tuantran/ros2_ws_int/build/action_tutorials_cpp
+[12.705s] Invoked command in '/home/tuantran/ros2_ws_int/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/tuantran/ros2_ws_int/src/action_tutorials_cpp -DCMAKE_INSTALL_PREFIX=/home/tuantran/ros2_ws_int/install/action_tutorials_cpp
+[12.710s] Invoking command in '/home/tuantran/ros2_ws_int/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws_int/build/action_tutorials_cpp -- -j2 -l2
+[13.152s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[31.652s] [ 50%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[32.671s] [ 50%] Built target action_server
+[32.749s] [ 75%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server.dir/rclcpp_components/node_main_fibonacci_action_server.cpp.o[0m
+[45.840s] [100%] [32m[1mLinking CXX executable fibonacci_action_server[0m
+[46.447s] [100%] Built target fibonacci_action_server
+[46.521s] Invoked command in '/home/tuantran/ros2_ws_int/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws_int/build/action_tutorials_cpp -- -j2 -l2
+[46.687s] Invoking command in '/home/tuantran/ros2_ws_int/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/tuantran/ros2_ws_int/build/action_tutorials_cpp
+[46.723s] -- Install configuration: ""
+[46.725s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[46.734s] -- Set runtime path of "/home/tuantran/ros2_ws_int/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[46.735s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/lib/libaction_server.so
+[46.744s] -- Set runtime path of "/home/tuantran/ros2_ws_int/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[46.745s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[46.748s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[46.750s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[46.752s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[46.753s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[46.754s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[46.755s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[46.756s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[46.761s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[46.763s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[46.764s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[46.768s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[46.771s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[46.772s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[46.773s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[46.775s] -- Installing: /home/tuantran/ros2_ws_int/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[46.782s] Invoked command in '/home/tuantran/ros2_ws_int/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tuantran/ros2_ws/install/launch_testing_examples:/home/tuantran/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_service:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_publisher:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_client:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_server:/home/tuantran/ros2_ws/install/examples_rclpy_minimal_action_client:/home/tuantran/ros2_ws/install/examples_rclpy_guard_conditions:/home/tuantran/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/tuantran/ros2_ws_int/build/action_tutorials_cpp
