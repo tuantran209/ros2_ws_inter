@@ -1,0 +1,4 @@
+Invoking command in '/home/tuantran/ros2_ws_int/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws_int/build/cpp_parameter_event_handler -- -j2 -l2
+Invoked command in '/home/tuantran/ros2_ws_int/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tuantran/ros2_ws_int/build/cpp_parameter_event_handler -- -j2 -l2
+Invoking command in '/home/tuantran/ros2_ws_int/build/cpp_parameter_event_handler': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tuantran/ros2_ws_int/build/cpp_parameter_event_handler
+Invoked command in '/home/tuantran/ros2_ws_int/build/cpp_parameter_event_handler' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tuantran/ros2_ws_int/build/cpp_parameter_event_handler
